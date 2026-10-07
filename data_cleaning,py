@@ -1,0 +1,28 @@
+import pandas as pd
+
+# Read dataset
+df = pd.read_csv("../dataset/facility_data.csv")
+
+print("Original Data:")
+print(df)
+
+# Check missing values
+print("\nMissing Values:")
+print(df.isnull().sum())
+
+# Check duplicate values
+print("\nDuplicate Rows:")
+print(df.duplicated().sum())
+
+# Remove duplicates
+df = df.drop_duplicates()
+
+# Convert inspection_date to date format
+df["inspection_date"] = pd.to_datetime(df["inspection_date"])
+
+# Save cleaned dataset
+df.to_csv("../dataset/cleaned_facility_data.csv", index=False)
+
+print("\nData cleaning completed successfully!")
+print("\nCleaned Data:")
+print(df)

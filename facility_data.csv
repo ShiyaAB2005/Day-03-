@@ -1,0 +1,16 @@
+facility_id,location,cleanliness_score,odor_score,waste_level,water_availability,footfall,inspection_date,outdoor_conditions
+F001,Amravati,8,2,Low,Yes,120,2026-09-01,Good
+F002,Nagpur,6,5,Medium,Yes,180,2026-09-02,Average
+F003,Pune,9,1,Low,Yes,250,2026-09-03,Good
+F004,Mumbai,5,7,High,No,320,2026-09-04,Poor
+F005,Nashik,7,4,Medium,Yes,210,2026-09-05,Average
+F006,Amravati,8,3,Low,Yes,150,2026-09-06,Good
+F007,Nagpur,6,6,High,No,290,2026-09-07,Poor
+F008,Pune,9,2,Low,Yes,270,2026-09-08,Good
+F009,Mumbai,5,8,High,No,350,2026-09-09,Poor
+F010,Nashik,7,4,Medium,Yes,200,2026-09-10,Average
+F011,Amravati,8,2,Low,Yes,140,2026-09-11,Good
+F012,Nagpur,6,5,Medium,Yes,220,2026-09-12,Average
+F013,Pune,9,1,Low,Yes,300,2026-09-13,Good
+F014,Mumbai,4,8,High,No,380,2026-09-14,Poor
+F015,Nashik,7,3,Medium,Yes,230,2026-09-15,Average
